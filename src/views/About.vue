@@ -1,11 +1,8 @@
 <template>
   <div class="home">
-    <h1>Home</h1>
+    <h1>About</h1>
     <h2>Counter from state: {{ count }}</h2>
-    <h3><router-link to="/about">About</router-link></h3>
-    <p>
-      <button @click="increment">Increment</button>
-    </p>
+    <h3><router-link to="/">Home</router-link></h3>
 
   </div>
 </template>
@@ -14,12 +11,7 @@
 export default {
   name: 'home',
   mounted: function() {
-    console.log('Mounted!', this.$store);
-  },
-  methods: {
-    increment () {
-      this.$store.commit('vsprobase/increment');
-    },
+    console.log('Mounted!');
   },
   computed: {
     count() {

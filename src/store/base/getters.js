@@ -1,4 +1,5 @@
-/*
-export const someGetter = (state) => {
+
+export const getMainMenu = (state) => {
+  return state.mainMenu;
 }
-*/
+

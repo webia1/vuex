@@ -1,4 +1,4 @@
-/*
-export const someMutation = (state) => {
+
+export const increment = (state) => {
+  state.count++;
 }
-*/
